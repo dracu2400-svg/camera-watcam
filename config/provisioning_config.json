@@ -1,0 +1,37 @@
+{
+  "network_server": {
+    "type": "ttn",
+    "api_key": "NNSXS.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "application_id": "water-meter-amr-production",
+    "region": "eu1"
+  },
+  "database": {
+    "host": "production-db.company.com",
+    "port": 5432,
+    "database": "amr_production",
+    "user": "provisioner",
+    "password": "CHANGE_ME_IN_PRODUCTION"
+  },
+  "provisioning": {
+    "baudrate": 921600,
+    "timeout": 10,
+    "retry_count": 3,
+    "verify_after_provision": true
+  },
+  "qr_codes": {
+    "generate": true,
+    "output_dir": "qr_codes",
+    "format": "png",
+    "size": 300
+  },
+  "logging": {
+    "level": "INFO",
+    "log_dir": "logs",
+    "retain_days": 90
+  },
+  "production": {
+    "batch_size": 1000,
+    "parallel_stations": 10,
+    "quality_check": true
+  }
+}
