@@ -14,9 +14,21 @@ This project provides everything you need to build a battery-powered, AI-enabled
 - 📸 **Camera-based digit recognition** (no need to modify existing meters)
 - 🧠 **On-device ML inference** (TensorFlow Lite Micro on Cortex-M55 + NPU)
 - 📡 **Long-range wireless** (LoRaWAN for up to 15km range)
-- 🔋 **Ultra-low power** (6+ months battery life)
+- 🔋 **Ultra-low power** (5-10 years battery life with optimization!)
 - 🛠️ **Complete toolchain** (training GUI, provisioning tools, firmware)
-- 📚 **Comprehensive documentation** (2,000+ lines of step-by-step guides)
+- 📚 **Comprehensive documentation** (4,000+ lines of step-by-step guides)
+
+### 🚀 NEW! Ultra-Low-Power Mode for 5-10 Year Battery Life
+
+**Achieve 5-10 years** of operation on a single battery with our ultra-low-power configuration!
+
+- **2-hour reading intervals** (12 readings per day)
+- **<5 µA sleep current** (ultra-deep sleep mode)
+- **~64 µA average consumption** (optimized)
+- **Li-SOCl₂ batteries** (AA: 5 years, C-cell: 10+ years)
+
+**📖 See:** [`docs/ULTRA_LOW_POWER_GUIDE.md`](docs/ULTRA_LOW_POWER_GUIDE.md) for complete optimization guide
+**🔋 See:** [`docs/BATTERY_SELECTION_GUIDE.md`](docs/BATTERY_SELECTION_GUIDE.md) for battery recommendations
 
 ## ⚡ Quick Start
 
